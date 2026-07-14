@@ -9,7 +9,7 @@
 - Git / GitHub
 
 ## Мои проекты (будут тут):
-- [Тест-кейсы] (скоро добавлю)
+- [Тест-кейсы] (https://github.com/whitesnow696/Qa-portfolio/tree/main/Test_Cases)
 - [Автотесты на Python] (скоро)
 
 ## Связаться:
