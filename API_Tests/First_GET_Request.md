@@ -1,15 +1,19 @@
-# Мой первый API-запрос
+# Отчет об API-тестировании: GET-запрос
 
-**Метод:** GET
-**URL:** https://jsonplaceholder.typicode.com/posts/1
-**Статус-код ответа:** 200 OK
+**Цель:** Проверить, что метод GET возвращает корректные данные существующего поста.
 
-**Запрос:** (https://jsonplaceholder.typicode.com/posts/1)
-**Ответ сервера:**
+**Метод:** `GET`
+**URL:** `https://jsonplaceholder.typicode.com/posts/1`
+
+### Результат
+*   **Статус-код:** `200 OK`
+*   **Время ответа:** `804 мс
+
+### Тело ответа (JSON)
 ```json
 {
     "userId": 1,
     "id": 1,
-    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    "title": "sunt aut facere...",
+    "body": "quia et suscipit..."
 }
