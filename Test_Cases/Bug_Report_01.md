@@ -21,4 +21,4 @@ Minor
 Windows 10, Opera GX 132.0.5905.110
 
 **Приложение:**
-Ошибка в названии товара (https://yapx.ru/album/d9KKv)
+Ошибка в названии товара https://github.com/whitesnow696/Qa-portfolio/blob/main/Test_Cases/Bug_Report_01.PNG
