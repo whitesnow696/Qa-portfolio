@@ -8,9 +8,9 @@
 - SQL (базовые запросы)
 - Git / GitHub
 
-## Мои проекты (будут тут):
-- [Тест-кейсы] (https://github.com/whitesnow696/Qa-portfolio/tree/main/Test_Cases)
-- [Автотесты на Python] (скоро)
+## Мои проекты:
+- [Тест-кейсы] https://github.com/whitesnow696/Qa-portfolio/tree/main/Test_Cases
+- [Автотесты на Python] В процессе изучения
 
 ## Связаться:
 - Telegram: @young_clown
