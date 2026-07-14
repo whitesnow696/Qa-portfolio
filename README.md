@@ -10,7 +10,7 @@
 
 ## Мои проекты:
 - [Test-Cases] https://github.com/whitesnow696/Qa-portfolio/tree/main/Test_Cases
-- [API-Tests]
+- [API-Tests] https://github.com/whitesnow696/Qa-portfolio/tree/main/API_Tests
 - [Автотесты на Python] В процессе изучения
 
 ## Связаться:
