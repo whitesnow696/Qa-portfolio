@@ -9,7 +9,8 @@
 - Git / GitHub
 
 ## Мои проекты:
-- [Тест-кейсы] https://github.com/whitesnow696/Qa-portfolio/tree/main/Test_Cases
+- [Test-Cases] https://github.com/whitesnow696/Qa-portfolio/tree/main/Test_Cases
+- [API-Tests]
 - [Автотесты на Python] В процессе изучения
 
 ## Связаться:
