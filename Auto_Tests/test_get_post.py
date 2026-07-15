@@ -11,7 +11,7 @@ def run_tests():
     assert data['id'] == 1, "ID поста не совпадает"
     assert 'title' in data, "В ответе нет поля title"
     assert 'body' in data, "В ответе нет поля body"
-    print("✅ GET-тест пройден!")
+    print("GET-тест пройден!")
 
     # 2. POST-запрос
     url_post = f"{BASE_URL}/posts"
@@ -21,16 +21,16 @@ def run_tests():
     post_data = response_post.json()
     assert post_data['id'] is not None, "ID не был создан"
     assert post_data['title'] == new_post['title'], "Заголовок не совпадает"
-    print("✅ POST-тест пройден! Новый ID:", post_data['id'])
+    print("POST-тест пройден! Новый ID:", post_data['id'])
 
     # 3. Негативный тест (адаптирован под фактическое поведение API)
     response_empty = requests.post(url_post, json={})
     # Примечание: API возвращает 201 и создает пост, хотя ожидается ошибка.
     assert response_empty.status_code == 201, "Неожиданный статус-код"
     empty_data = response_empty.json()
-    print(f"ℹ️ Тест на пустой запрос: сервер создал пост с ID={empty_data.get('id')} и пустым title")
+    print(f"Тест на пустой запрос: сервер создал пост с ID={empty_data.get('id')} и пустым title")
 
-    print("\n🎉 Все тесты успешно выполнены!")
+    print("\n Все тесты успешно выполнены!")
 
 if __name__ == "__main__":
     run_tests()  
