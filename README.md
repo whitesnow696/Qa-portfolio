@@ -11,7 +11,7 @@
 ## Мои проекты:
 - [Test-Cases] https://github.com/whitesnow696/Qa-portfolio/tree/main/Test_Cases
 - [API-Tests] https://github.com/whitesnow696/Qa-portfolio/tree/main/API_Tests
-- [Автотесты на Python] В процессе изучения
+- [Автотесты на Python] https://github.com/whitesnow696/Qa-portfolio/blob/main/test_get_post.py
 
 ## Связаться:
 - Telegram: @young_clown
